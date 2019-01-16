@@ -42,7 +42,7 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
 Plugin 'scrooloose/nerdtree'
-Plugin 'valloric/youcompleteme'
+" Plugin 'valloric/youcompleteme'
 Bundle 'dag/vim-fish'
 
 call vundle#end()            " required
@@ -67,8 +67,6 @@ set background=dark
 colorscheme gruvbox
 hi Normal guibg=NONE ctermbg=NONE
 
-highlight ExtraWhitespace ctermbg=darkred guibg=lightgreen
-match ExtraWhitespace /\s\+\%#\@<!$/
 
 
 au BufRead,BufNewFile *.g set filetype=geode
@@ -108,7 +106,6 @@ map <C-n> :NERDTreeToggle<CR>
 map <C-q> :q<CR>
 map <C-Q> :q!<CR>
 " Map esc to exit terminal mode
-tnoremap <Esc> <C-\><C-n>
 " Map ctrl + s to save in any mode
 noremap <C-S> :update<CR>
 vnoremap <C-S> <C-C>:update<CR>
@@ -194,3 +191,5 @@ nnoremap ; :
 
 "set up code folding
 
+
+set number
