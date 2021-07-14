@@ -1,0 +1,3 @@
+update brew
+brew install neovim
+brew install rust-analyzer
