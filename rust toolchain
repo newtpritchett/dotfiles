@@ -1,3 +1,5 @@
 update brew
 brew install neovim
 brew install rust-analyzer
+https://github.com/junegunn/vim-plug/blob/master/README.md --unix installation neovim
+/Users/trevor/.config/nvim/init.vim -- when plugins are added, open nvim and run :PlugInstall
